@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tea Stall - Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="form">
+  <h1>Contact Us </h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="table.html">Category</a></li>
+      <li><a href="form.html">Contact Us</a></li>
+      <li><a href="list.html">Price</a></li>
+      <li><a href="image.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <form id="myForm">
+  <div class="contact-container">
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>Have any questions or suggestions? We'd love to hear from you!</p> <br>
+      
+      <h3>Address</h3>
+      <p>Tea Stall</p>
+      <p>Rupushdi</p>
+      <p>Bancharampur, Brahmanbaria, 3430-Rupushdi</p> <br>
+      
+      <p>Phone: +880-1753-002110</p>
+      
+      <p>Email: shahedkabir786@gmail.com</p> <br>
+      
+      <h3>Social Media</h3>
+      <p>Follow us on:</p>
+      <a href="www.facebook.com/profile.php?id=100010340222419">Facebook</a>
+      <a href="[Instagram URL]">Instagram</a>
+      <a href="[Twitter URL]">Twitter</a>
+    </div> <br>
+  
+    
+    <div class="contact-form">
+      <h2>Send us a Message</h2>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
